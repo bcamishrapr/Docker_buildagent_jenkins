@@ -1,8 +1,15 @@
-# docker_buildstep_dockerfile
+
 
 This project is used to list all the cmd for creating image from dockerfile, pushing the image to docker hub or making image from a running container.
+
 ---
-## 1. First we create an simple image from dockerfile: 
+### To Create image from a container in docker
+```
+docker commit cont_name image_name
+```
+---
+## To Create Image from a Dockerfile
+### 1. First we create an simple image from dockerfile: 
 ```
 FROM ubuntu:18.04
 LABEL maintainer="Prasoon Mishra <prassonmishra330@gmail.com@gmail.com>"
