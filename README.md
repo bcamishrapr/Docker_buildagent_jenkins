@@ -20,7 +20,7 @@ RUN chown -R jenkins:jenkins /home/jenkins/
 EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
 ```
-> To Build above docker file: 
+- To Build above docker file: 
 ```
  docker build -t jenkins_slave .
   ```
